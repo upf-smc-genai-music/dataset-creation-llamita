@@ -1,0 +1,38 @@
+{
+  "parameter_1": {
+    "name": "time_stretch",
+    "type": "continuous",
+    "unit": "ratio",
+    "min": 0.95,
+    "max": 1.05
+  },
+  "parameter_2": {
+    "name": "pitch_shift",
+    "type": "continuous",
+    "unit": "semitones",
+    "min": -1.0,
+    "max": 1.0
+  },
+  "parameter_3": {
+    "name": "loudness_rms",
+    "type": "continuous",
+    "unit": "rms",
+    "min": 0.0,
+    "max": 0.5
+  },
+  "parameter_4": {
+    "name": "spectral_centroid",
+    "type": "continuous",
+    "unit": "Hz",
+    "min": 0.0,
+    "max": 12000.0
+  },
+  "parameter_5": {
+    "name": "source",
+    "type": "class",
+    "classes": [
+      "raw",
+      "synthetic"
+    ]
+  }
+}
