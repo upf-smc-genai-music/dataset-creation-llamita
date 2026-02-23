@@ -207,3 +207,8 @@ marimo/_lsp/
 __marimo__/
 # data/raw/
 data/syntehtic/
+
+data/raw/
+data/synthetic/
+.DS_Store
+**/.DS_Store
