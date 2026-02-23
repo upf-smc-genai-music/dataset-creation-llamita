@@ -1,0 +1,20 @@
+{
+  "n_files": 62,
+  "samplerates": {
+    "44100": 62
+  },
+  "channels": {
+    "2": 62
+  },
+  "duration_sec": {
+    "min_sec": 25.5,
+    "mean_sec": 25.5201,
+    "median_sec": 25.5,
+    "max_sec": 26.7464,
+    "std_sec": 0.1583
+  },
+  "figures": {
+    "duration_hist": "../results/figures/duration_hist.png"
+  },
+  "qc_sample_csv": "../data/processed/qc_sample.csv"
+}
